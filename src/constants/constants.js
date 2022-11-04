@@ -23,7 +23,7 @@ export const projects = [
     title: "Custom Object Detection",
     description:
       "Using transfer learning method creating a custom model that could detect a specific object, in this case, a couple of handsign was provided as the data to be detected",
-    image: "/images/3.jpg",
+    image: "",
     tags: ["Python", "Tensorflow"],
     source:
       "https://www.youtube.com/watch?v=yqkISICHH-U&list=PLP09gMFk24Z1vHpj7-93_QOLDXKANb2A8&index=2&t=910s&ab_channel=NicholasRenotte",
@@ -38,6 +38,17 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Git"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/web-programming-final",
+    id: 3,
+  },
+  {
+    title: "Minesweeper",
+    description:
+      "An old school windows game when the internet was not a thing, this game keeps lots of people company when they are bored!",
+    image: "",
+    tags: ["React", "SCSS", "TypeScript"],
+    source:
+      "https://www.youtube.com/watch?v=hg41egLtM9o&t=5s&ab_channel=JustinKim",
+    visit: "https://github.com/fbrynpk/minesweeper-ts",
     id: 4,
   },
 ];

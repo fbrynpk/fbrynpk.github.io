@@ -20,9 +20,10 @@ const Hero = (props) => (
           Febryan Putra Kartika
         </SectionTitle>
         <SectionText>
-          A third year student majoring in Electrical Engineering and Computer
+          A senior student majoring in Electrical Engineering and Computer
           Science in National Taipei University of Technology passionate about
-          learning technology and developing program.
+          learning Machine Learning and How it can be applied to solve real life
+          problems.
         </SectionText>
         <form method="get" action="cv.pdf">
           <Button type="submit">Curriculum Vitae</Button>

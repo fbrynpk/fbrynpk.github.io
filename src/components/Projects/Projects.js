@@ -29,7 +29,7 @@ const Projects = () => (
         ({ id, image, title, play, description, tags, source, visit }) => (
           <BlogCard key={id}>
             <a href={play}>
-              <Img> src={image} </Img>
+              <Img src={image} />
             </a>
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>

@@ -3,7 +3,7 @@ export const projects = [
     title: "Snake Games",
     description:
       "Recreating an old classic games by using object oriented programming in c and c++ to made it efficient and fully functional at the same time.",
-    image: "/images/1.png",
+    image: "/images/0.png",
     play: "",
     tags: ["C", "C++"],
     source: "https://www.programmersought.com/article/16655073486/",
@@ -14,7 +14,7 @@ export const projects = [
     title: "Emotion Recognition",
     description:
       "First project that is related to data science and machine learning, creating a CNN and training it to be able to accurately detect emotions including Happy, Sad, Angry, Scared, and Shocked",
-    image: "/images/3.jpg",
+    image: "/images/1.jpg",
     play: "",
     tags: ["Python", "Tensorflow"],
     source: "https://google.com",
@@ -37,7 +37,7 @@ export const projects = [
     title: '"Crinema" Online Movie Rating System',
     description:
       "An experiment to create a functional rating system based on movies, the reason for this project is for movie lovers who at times have troubles to watch good movies, and this system will create a trust-worthy rating system that every movie lovers can rate and view regarding what movies they might find themselves suitable with",
-    image: "/images/5.png",
+    image: "/images/3.png",
     play: "",
     tags: ["HTML", "CSS", "JavaScript", "Git", "Firebase"],
     source: "https://google.com",
@@ -48,7 +48,7 @@ export const projects = [
     title: "Minesweeper",
     description:
       "An old school windows game when the internet was not a thing, this game keeps lots of people company when they are bored!",
-    image: "",
+    image: "/images/4.jpg",
     play: "https://minesweeper-ts.vercel.app/",
     tags: ["React", "SCSS", "TypeScript"],
     source:

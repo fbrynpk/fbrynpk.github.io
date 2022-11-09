@@ -48,6 +48,7 @@ export const projects = [
     tags: ["React", "SCSS", "TypeScript"],
     source:
       "https://www.youtube.com/watch?v=hg41egLtM9o&t=5s&ab_channel=JustinKim",
+    play:"https://minesweeper-ts.vercel.app/",
     visit: "https://github.com/fbrynpk/minesweeper-ts",
     id: 4,
   },

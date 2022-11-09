@@ -35,7 +35,7 @@ export const projects = [
     description:
       "An experiment to create a functional rating system based on movies, the reason for this project is for movie lovers who at times have troubles to watch good movies, and this system will create a trust-worthy rating system that every movie lovers can rate and view regarding what movies they might find themselves suitable with",
     image: "/images/5.png",
-    tags: ["HTML", "CSS", "JavaScript", "Git"],
+    tags: ["HTML", "CSS", "JavaScript", "Git", "Firebase"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/web-programming-final",
     id: 3,
@@ -45,6 +45,7 @@ export const projects = [
     description:
       "An old school windows game when the internet was not a thing, this game keeps lots of people company when they are bored!",
     image: "",
+    play: "https://minesweeper-ts.vercel.app/",
     tags: ["React", "SCSS", "TypeScript"],
     source:
       "https://www.youtube.com/watch?v=hg41egLtM9o&t=5s&ab_channel=JustinKim",

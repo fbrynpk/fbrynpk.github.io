@@ -4,6 +4,7 @@ export const projects = [
     description:
       "Recreating an old classic games by using object oriented programming in c and c++ to made it efficient and fully functional at the same time.",
     image: "/images/1.png",
+    play: "",
     tags: ["C", "C++"],
     source: "https://www.programmersought.com/article/16655073486/",
     visit: "https://github.com/fbrynpk/SnakeGame",
@@ -14,6 +15,7 @@ export const projects = [
     description:
       "First project that is related to data science and machine learning, creating a CNN and training it to be able to accurately detect emotions including Happy, Sad, Angry, Scared, and Shocked",
     image: "/images/3.jpg",
+    play: "",
     tags: ["Python", "Tensorflow"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/RealTimeEmotionRecognition",
@@ -24,6 +26,7 @@ export const projects = [
     description:
       "Using transfer learning method creating a custom model that could detect a specific object, in this case, a couple of handsign was provided as the data to be detected",
     image: "",
+    play: "",
     tags: ["Python", "Tensorflow"],
     source:
       "https://www.youtube.com/watch?v=yqkISICHH-U&list=PLP09gMFk24Z1vHpj7-93_QOLDXKANb2A8&index=2&t=910s&ab_channel=NicholasRenotte",
@@ -35,6 +38,7 @@ export const projects = [
     description:
       "An experiment to create a functional rating system based on movies, the reason for this project is for movie lovers who at times have troubles to watch good movies, and this system will create a trust-worthy rating system that every movie lovers can rate and view regarding what movies they might find themselves suitable with",
     image: "/images/5.png",
+    play: "",
     tags: ["HTML", "CSS", "JavaScript", "Git", "Firebase"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/web-programming-final",

@@ -28,7 +28,9 @@ const Projects = () => (
       {projects.map(
         ({ id, image, title, play, description, tags, source, visit }) => (
           <BlogCard key={id}>
-            <Img src={image} href={play} />
+            <a href={play}>
+              <Img> src={image} </Img>
+            </a>
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
               <Hr />

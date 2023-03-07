@@ -56,6 +56,18 @@ export const projects = [
     visit: "https://github.com/fbrynpk/minesweeper-ts",
     id: 4,
   },
+  {
+    title: "Image Caption Generator (Bachelor's Thesis)",
+    description:
+      "Creating an image to caption generator with Transfer Learning and Deep Learning from an Inception V3 model combined into a transformer encoder and decoder model",
+    image: "/images/5.jpg",
+    play: "https://huggingface.co/spaces/fbrynpk/image-caption-generator",
+    tags: ["Python", "Deep Learning", "Transfer Learning", "Tensorflow"],
+    source:
+      "https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/",
+    visit: "https://huggingface.co/spaces/fbrynpk/image-caption-generator/tree/main",
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
@@ -71,7 +83,7 @@ export const TimeLineData = [
   { year: 2018, text: "Developing my own side project" },
   { year: 2019, text: "Creating my own personal portfolio website" },
   { year: 2020, text: "Learning MLAD and more of front-end development" },
-  { year: 2021, text: "Create a project about game development" },
+  { year: 2021, text: "Further understand about Deep Learning and Neural Networks" },
 ];
 
 export const data = [

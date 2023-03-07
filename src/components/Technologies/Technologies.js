@@ -21,7 +21,7 @@ const Technologies = () => (
     <SectionTitle>Experiences</SectionTitle>
     <SectionText>
       Worked with a lot of languages from front-end, back-end and machine
-      learning world.
+      learning.
     </SectionText>
     <List>
       <ListItem>

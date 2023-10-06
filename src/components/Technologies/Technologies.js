@@ -4,14 +4,14 @@ import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
-  ListTitle,
+  ListTitle
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
@@ -20,39 +20,40 @@ const Technologies = () => (
     <br />
     <SectionTitle>Experiences</SectionTitle>
     <SectionText>
-      Worked with a lot of languages from front-end, back-end and machine
-      learning.
+      Worked on several machine learning projects, including object detection,
+      intent classifications, text generation, medical detection and paper
+      replications
     </SectionText>
     <List>
       <ListItem>
         <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Front-end</ListTitle>
+          <ListTitle>Machine Learning</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js and Markup Languages
+            Experienced with Machine Learning library such as PyTorch and
+            Tensorflow
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Machine Learning</ListTitle>
+          <ListTitle>Natrual Language Processing</ListTitle>
           <ListParagraph>
-            Experience with Machine Learning library
-            <br />
-            like Keras and Tensorflow, mainly uses Python
+            Experienced with NLP theory such as Tokenizations, Vectorization,
+            Bag of Words model, Lemmatization and Stemming also experimented
+            with transformer models and how to fine-tune LLM.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiZend size="3rem" />
         <ListContainer>
-          <ListTitle>Computer Vision</ListTitle>
+          <ListTitle>Healthcare</ListTitle>
           <ListParagraph>
-            Interested in how a machine could see real life object
-            <br />
-            includes detection, tracking and recognition.
+            Interested in how healthcare quality could be improved with the help
+            of machine learning from early detection, diagnosis, treatment, and
+            monitoring of diseases.
           </ListParagraph>
         </ListContainer>
       </ListItem>

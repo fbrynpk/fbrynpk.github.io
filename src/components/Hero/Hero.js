@@ -3,7 +3,7 @@ import React from "react";
 import {
   Section,
   SectionText,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
@@ -20,9 +20,10 @@ const Hero = (props) => (
           Febryan Putra Kartika
         </SectionTitle>
         <SectionText>
-          A senior student majoring in Electrical Engineering and Computer
+          Fresh Graduate Student majored in Electrical Engineering and Computer
           Science in National Taipei University of Technology passionate about
-          learning Machine Learning and How it can be applied to solve real life
+          learning Machine Learning particulary on Natural Language Processing
+          and Computer Vision and how it can be applied to solve real life
           problems.
         </SectionText>
         <form method="get" action="cv.pdf">

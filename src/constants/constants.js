@@ -1,14 +1,15 @@
 export const projects = [
   {
-    title: "Snake Games",
+    title: "Health Intent Classification with Speech Recognition",
     description:
-      "Recreating an old classic games by using object oriented programming in c and c++ to made it efficient and fully functional at the same time.",
+      "An experiment intended to create a model that could recognize what symptoms we had, using a speech recognition model to convert speech to text",
     image: "/images/0.png",
     play: "",
-    tags: ["C", "C++"],
-    source: "https://www.programmersought.com/article/16655073486/",
-    visit: "https://github.com/fbrynpk/SnakeGame",
-    id: 0,
+    tags: ["Python", "PyTorch", "NLTK"],
+    source:
+      "https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent",
+    visit: "https://github.com/fbrynpk/HealthIntentClassification",
+    id: 0
   },
   {
     title: "Emotion Recognition",
@@ -19,19 +20,40 @@ export const projects = [
     tags: ["Python", "Tensorflow"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/RealTimeEmotionRecognition",
-    id: 1,
+    id: 5
   },
   {
-    title: "Custom Object Detection",
+    title: "FoodVision",
     description:
-      "Using transfer learning method creating a custom model that could detect a specific object, in this case, a couple of handsign was provided as the data to be detected",
-    image: "",
+      "Using transfer learning method creating a custom Vision-Transformer model that could detect a specific food classes, this model is trained using 20% dataset from PyTorch Food101 dataset, and the model is hosted on HuggingFace Spaces",
+    image: "/images/2.png",
     play: "",
-    tags: ["Python", "Tensorflow"],
-    source:
-      "https://www.youtube.com/watch?v=yqkISICHH-U&list=PLP09gMFk24Z1vHpj7-93_QOLDXKANb2A8&index=2&t=910s&ab_channel=NicholasRenotte",
-    visit: "https://github.com/fbrynpk/CustomObjectDetection",
-    id: 2,
+    tags: ["Python", "PyTorch", "HuggingFace"],
+    source: "",
+    visit: "https://huggingface.co/spaces/fbrynpk/FoodVision",
+    id: 1
+  },
+  {
+    title: "Vision-Transformer",
+    description:
+      "An attempt to manually create a Vision-Transformer model from scratch, this model is based on the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, in this attempt I recreated the ViT-B/16 model.",
+    image: "/images/6.png",
+    play: "",
+    tags: ["Python", "PyTorch"],
+    source: "https://arxiv.org/pdf/2010.11929.pdf",
+    visit: "https://github.com/fbrynpk/Vision-Transformer",
+    id: 2
+  },
+  {
+    title: "COVID-19 Detection",
+    description:
+      "The purpose of this project is to compare models between TinyVGG and EfficientNetB0 on which model is better to detect COVID-19 from X-Ray images",
+    image: "/images/7.png",
+    play: "",
+    tags: ["Python", "PyTorch", "Transfer Learning"],
+    source: "https://poloclub.github.io/cnn-explainer/",
+    visit: "https://github.com/fbrynpk/Covid19-Prediction",
+    id: 3
   },
   {
     title: '"Crinema" Online Movie Rating System',
@@ -42,7 +64,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Git", "Firebase"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/web-programming-final",
-    id: 3,
+    id: 7
   },
   {
     title: "Minesweeper",
@@ -54,7 +76,7 @@ export const projects = [
     source:
       "https://www.youtube.com/watch?v=hg41egLtM9o&t=5s&ab_channel=JustinKim",
     visit: "https://github.com/fbrynpk/minesweeper-ts",
-    id: 4,
+    id: 6
   },
   {
     title: "Image Caption Generator (Bachelor's Thesis)",
@@ -65,30 +87,42 @@ export const projects = [
     tags: ["Python", "Deep Learning", "Transfer Learning", "Tensorflow"],
     source:
       "https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/",
-    visit: "https://huggingface.co/spaces/fbrynpk/image-caption-generator/tree/main",
-    id: 5,
-  },
+    visit:
+      "https://huggingface.co/spaces/fbrynpk/image-caption-generator/tree/main",
+    id: 4
+  }
 ];
 
 export const TimeLineData = [
-  { year: 2015, text: "Started learning Markup Languages" },
   {
-    year: 2016,
-    text: "Learned the basics of programming by using C and C++ language",
+    year: 2018,
+    text: "Started learning python, data structures and algorithm"
   },
   {
-    year: 2017,
-    text: "Project using Markup Languages by building E-commerce website",
+    year: 2019,
+    text: "Got introduced into machine learning and it's applications"
   },
-  { year: 2018, text: "Developing my own side project" },
-  { year: 2019, text: "Creating my own personal portfolio website" },
-  { year: 2020, text: "Learning MLAD and more of front-end development" },
-  { year: 2021, text: "Further understand about Deep Learning and Neural Networks" },
+  {
+    year: 2020,
+    text: "Created first ever CNN model for facial emotion recognition"
+  },
+  {
+    year: 2021,
+    text: "Dived deeper to understand more about neural networks, deep learning and theories behind state-of-the-art models"
+  },
+  {
+    year: 2022,
+    text: "Experimented with Transformer models to generate captions based on a given image (Bachelor's thesis)"
+  },
+  {
+    year: 2023,
+    text: "Conducted some experiments with speech recognition and NLP to help with early detection for medical disorders"
+  }
 ];
 
 export const data = [
   { image: "/images/award2.png", text: "Dean's list awards First term" },
   { image: "/images/award.jpg", text: "Dean's list awards Second term" },
   { image: "/images/award4.png", text: "Dean's list awards Third term" },
-  { image: "/images/award3.png", text: "Dean's list awards Fourth term" },
+  { image: "/images/award3.png", text: "Dean's list awards Fourth term" }
 ];

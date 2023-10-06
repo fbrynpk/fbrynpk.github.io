@@ -1,8 +1,23 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+import {
+  CarouselButton,
+  CarouselButtonDot,
+  CarouselButtons,
+  CarouselContainer,
+  CarouselItem,
+  CarouselItemImg,
+  CarouselItemText,
+  CarouselItemTitle,
+  CarouselMobileScrollNode
+} from "./TimeLineStyles";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle
+} from "../../styles/GlobalComponents";
+import { TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -11,63 +26,76 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
-  }
+    return node.scrollTo({ left, behavior: "smooth" });
+  };
 
   const handleClick = (e, i) => {
     e.preventDefault();
 
     if (carouselRef.current) {
-      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+      const scrollLeft = Math.floor(
+        carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
+      );
+
       scroll(carouselRef.current, scrollLeft);
     }
-  }
+  };
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.round(
+        (carouselRef.current.scrollLeft /
+          (carouselRef.current.scrollWidth * 0.7)) *
+          TimeLineData.length
+      );
 
       setActiveItem(index);
     }
-  }
+  };
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
-    }
+    };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
   }, []);
 
   return (
     <Section id="about">
       <SectionTitle>About me</SectionTitle>
       <SectionText>
-        I am from Indonesia, and studying university in Taiwan. Very enthusiastic about technology and how to develop software!
-        Currently learning about machine learning by using python to create and train CNN, specifically my project is about face recognition to recognize
-        emotions. I am also trying to learn on how to create a good website both by backend and frontend.
+        I am from Indonesia, got my bachelor's degree from Taiwan. Very
+        enthusiast about technology and machine learning, always try to keep up
+        for the latest state-of-the-art technologies! Currently learning about
+        machine learning albeit in the realm of NLP and CV, specifically I am
+        interested to contribute to the community by improving healthcare
+        quality through AI implementations.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {TimeLineData.map((item, index)=>(
-            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
-              <CarouselItem  
+          {TimeLineData.map((item, index) => (
+            <CarouselMobileScrollNode
+              key={index}
+              final={index === TOTAL_CAROUSEL_COUNT - 1}
+            >
+              <CarouselItem
                 index={index}
                 id={"carousel__item-${index}"}
                 active={activeItem}
-                onClick={(e)=> handleClick(e, index)}
+                onClick={(e) => handleClick(e, index)}
               >
-              <CarouselItemTitle>
-                {item.year}
-                <CarouselItemImg
+                <CarouselItemTitle>
+                  {item.year}
+                  <CarouselItemImg
                     width="208"
                     height="6"
                     viewBox="0 0 208 6"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -82,7 +110,8 @@ const Timeline = () => {
                         y1="0.5"
                         x2="208"
                         y2="0.500295"
-                        gradientUnits="userSpaceOnUse">
+                        gradientUnits="userSpaceOnUse"
+                      >
                         <stop stop-color="white" />
                         <stop
                           offset="0.79478"
@@ -92,29 +121,27 @@ const Timeline = () => {
                       </linearGradient>
                     </defs>
                   </CarouselItemImg>
-              </CarouselItemTitle>
-              <CarouselItemText>
-                {item.text}
-              </CarouselItemText>
+                </CarouselItemTitle>
+                <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index)=>(
+        {TimeLineData.map((item, index) => (
           <CarouselButton
             key={index}
             index={index}
             active={activeItem}
-            onClick={(e)=> handleClick(e, index)}
+            onClick={(e) => handleClick(e, index)}
             type="button"
           >
-            <CarouselButtonDot active={activeItem}/>
+            <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider/>
+      <SectionDivider />
     </Section>
   );
 };

@@ -1,8 +1,18 @@
-import React from 'react';
-import * as FaIcons from 'react-icons/fa';
+import React from "react";
+import * as FaIcons from "react-icons/fa";
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SocialIcons } from "../Header/HeaderStyles";
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -23,14 +33,14 @@ const Footer = () => {
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/fbrynpk">
-          <FaIcons.FaGithub size="2rem"/>
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/febryan-putra-kartika-592934207/">
-          <FaIcons.FaLinkedin size="2rem"/>
-        </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/febryanpk/">
-          <FaIcons.FaInstagram size="2rem"/>
-        </SocialIcons> 
+            <FaIcons.FaGithub size="2rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/febryan-putra-kartika-592934207/">
+            <FaIcons.FaLinkedin size="2rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.instagram.com/fbrynpk/">
+            <FaIcons.FaInstagram size="2rem" />
+          </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

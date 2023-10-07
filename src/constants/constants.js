@@ -12,17 +12,6 @@ export const projects = [
     id: 0
   },
   {
-    title: "Emotion Recognition",
-    description:
-      "First project that is related to data science and machine learning, creating a CNN and training it to be able to accurately detect emotions including Happy, Sad, Angry, Scared, and Shocked",
-    image: "/images/1.jpg",
-    play: "",
-    tags: ["Python", "Tensorflow"],
-    source: "https://google.com",
-    visit: "https://github.com/fbrynpk/RealTimeEmotionRecognition",
-    id: 5
-  },
-  {
     title: "FoodVision",
     description:
       "Using transfer learning method creating a custom Vision-Transformer model that could detect a specific food classes, this model is trained using 20% dataset from PyTorch Food101 dataset, and the model is hosted on HuggingFace Spaces",
@@ -56,6 +45,30 @@ export const projects = [
     id: 3
   },
   {
+    title: "Image Caption Generator (Bachelor's Thesis)",
+    description:
+      "Creating an image to caption generator with Transfer Learning and Deep Learning from an Inception V3 model combined into a transformer encoder and decoder model",
+    image: "/images/5.jpg",
+    play: "https://huggingface.co/spaces/fbrynpk/image-caption-generator",
+    tags: ["Python", "Deep Learning", "Transfer Learning", "Tensorflow"],
+    source:
+      "https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/",
+    visit:
+      "https://huggingface.co/spaces/fbrynpk/image-caption-generator/tree/main",
+    id: 4
+  },
+  {
+    title: "Emotion Recognition",
+    description:
+      "First project that is related to data science and machine learning, creating a CNN and training it to be able to accurately detect emotions including Happy, Sad, Angry, Scared, and Shocked",
+    image: "/images/1.jpg",
+    play: "",
+    tags: ["Python", "Tensorflow"],
+    source: "https://google.com",
+    visit: "https://github.com/fbrynpk/RealTimeEmotionRecognition",
+    id: 5
+  },
+  {
     title: '"Crinema" Online Movie Rating System',
     description:
       "An experiment to create a functional rating system based on movies, the reason for this project is for movie lovers who at times have troubles to watch good movies, and this system will create a trust-worthy rating system that every movie lovers can rate and view regarding what movies they might find themselves suitable with",
@@ -77,19 +90,6 @@ export const projects = [
       "https://www.youtube.com/watch?v=hg41egLtM9o&t=5s&ab_channel=JustinKim",
     visit: "https://github.com/fbrynpk/minesweeper-ts",
     id: 6
-  },
-  {
-    title: "Image Caption Generator (Bachelor's Thesis)",
-    description:
-      "Creating an image to caption generator with Transfer Learning and Deep Learning from an Inception V3 model combined into a transformer encoder and decoder model",
-    image: "/images/5.jpg",
-    play: "https://huggingface.co/spaces/fbrynpk/image-caption-generator",
-    tags: ["Python", "Deep Learning", "Transfer Learning", "Tensorflow"],
-    source:
-      "https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/",
-    visit:
-      "https://huggingface.co/spaces/fbrynpk/image-caption-generator/tree/main",
-    id: 4
   }
 ];
 
@@ -121,8 +121,12 @@ export const TimeLineData = [
 ];
 
 export const data = [
-  { image: "/images/award2.png", text: "Dean's list awards First term" },
-  { image: "/images/award.jpg", text: "Dean's list awards Second term" },
-  { image: "/images/award4.png", text: "Dean's list awards Third term" },
-  { image: "/images/award3.png", text: "Dean's list awards Fourth term" }
+  { image: "/images/award2.png", text: "Dean's List Award - Fall 2019" },
+  { image: "/images/award.jpg", text: "Dean's List Award - Spring 2020" },
+  { image: "/images/award4.png", text: "Dean's List Award - Fall 2020" },
+  { image: "/images/award3.png", text: "Dean's List Award - Spring 2020" },
+  {
+    image: "/images/val_award.jpeg",
+    text: "Valedictorian of EECS Department Award"
+  }
 ];

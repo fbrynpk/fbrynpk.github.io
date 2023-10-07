@@ -30,8 +30,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Machine Learning</ListTitle>
           <ListParagraph>
-            Experienced with Machine Learning library such as PyTorch and
-            Tensorflow
+            Experienced with Machine Learning algorithms (Linear and Logistic
+            Regression, Decision Tree, Random Forest, Naive Bayes, SVM, KNN) and
+            library such as PyTorch and Tensorflow
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,8 +42,8 @@ const Technologies = () => (
           <ListTitle>Natrual Language Processing</ListTitle>
           <ListParagraph>
             Experienced with NLP theory such as Tokenizations, Vectorization,
-            Bag of Words model, Lemmatization and Stemming also experimented
-            with transformer models and how to fine-tune LLM.
+            Bag of Words model, Lemmatization and Stemming, markov models also
+            experimented with transformer models and how to fine-tune LLM.
           </ListParagraph>
         </ListContainer>
       </ListItem>

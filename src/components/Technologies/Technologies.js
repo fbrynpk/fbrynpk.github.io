@@ -4,14 +4,14 @@ import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle
+  SectionTitle,
 } from "../../styles/GlobalComponents";
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
-  ListTitle
+  ListTitle,
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
@@ -30,7 +30,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Machine Learning</ListTitle>
           <ListParagraph>
-            Experienced with Machine Learning algorithms (Linear and Logistic
+            Familiar with Machine Learning algorithms (Linear and Logistic
             Regression, Decision Tree, Random Forest, Naive Bayes, SVM, KNN) and
             library such as PyTorch and Tensorflow
           </ListParagraph>

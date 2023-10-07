@@ -9,7 +9,7 @@ export const projects = [
     source:
       "https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent",
     visit: "https://github.com/fbrynpk/HealthIntentClassification",
-    id: 0,
+    id: 0
   },
   {
     title: "FoodVision",
@@ -20,7 +20,7 @@ export const projects = [
     tags: ["Python", "PyTorch", "HuggingFace"],
     source: "",
     visit: "https://huggingface.co/spaces/fbrynpk/FoodVision",
-    id: 1,
+    id: 1
   },
   {
     title: "Vision-Transformer",
@@ -31,7 +31,7 @@ export const projects = [
     tags: ["Python", "PyTorch"],
     source: "https://arxiv.org/pdf/2010.11929.pdf",
     visit: "https://github.com/fbrynpk/Vision-Transformer",
-    id: 2,
+    id: 2
   },
   {
     title: "COVID-19 Detection",
@@ -42,7 +42,7 @@ export const projects = [
     tags: ["Python", "PyTorch", "Transfer Learning"],
     source: "https://poloclub.github.io/cnn-explainer/",
     visit: "https://github.com/fbrynpk/Covid19-Prediction",
-    id: 3,
+    id: 3
   },
   {
     title: "Image Caption Generator (Bachelor's Thesis)",
@@ -55,7 +55,7 @@ export const projects = [
       "https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/",
     visit:
       "https://huggingface.co/spaces/fbrynpk/image-caption-generator/tree/main",
-    id: 4,
+    id: 4
   },
   {
     title: "Emotion Recognition",
@@ -66,7 +66,7 @@ export const projects = [
     tags: ["Python", "Tensorflow"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/RealTimeEmotionRecognition",
-    id: 5,
+    id: 5
   },
   {
     title: '"Crinema" Online Movie Rating System',
@@ -77,7 +77,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Git", "Firebase"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/web-programming-final",
-    id: 7,
+    id: 7
   },
   {
     title: "Minesweeper",
@@ -89,35 +89,35 @@ export const projects = [
     source:
       "https://www.youtube.com/watch?v=hg41egLtM9o&t=5s&ab_channel=JustinKim",
     visit: "https://github.com/fbrynpk/minesweeper-ts",
-    id: 6,
-  },
+    id: 6
+  }
 ];
 
 export const TimeLineData = [
   {
     year: 2018,
-    text: "Started learning python, data structures and algorithm",
+    text: "Started learning python, data structures and algorithm"
   },
   {
     year: 2019,
-    text: "Got introduced into machine learning and it's applications",
+    text: "Got introduced into machine learning and it's applications"
   },
   {
     year: 2020,
-    text: "Created first ever CNN model for facial emotion recognition",
+    text: "Created first ever CNN model for facial emotion recognition"
   },
   {
     year: 2021,
-    text: "Dived deeper to understand more about neural networks, deep learning and theories behind state-of-the-art models",
+    text: "Dived deeper to understand more about neural networks, deep learning and theories behind state-of-the-art models"
   },
   {
     year: 2022,
-    text: "Experimented with Transformer models to generate captions based on a given image (Bachelor's thesis)",
+    text: "Experimented with Transformer models to generate captions based on a given image (Bachelor's thesis)"
   },
   {
     year: 2023,
-    text: "Conducted some experiments with speech recognition and NLP to help with early detection for medical disorders",
-  },
+    text: "Conducted some experiments with speech recognition and NLP to help with early detection for medical disorders"
+  }
 ];
 
 export const data = [
@@ -126,7 +126,7 @@ export const data = [
   { image: "/images/award4.png", text: "Dean's List Award - Fall 2020" },
   { image: "/images/award3.png", text: "Dean's List Award - Spring 2021" },
   {
-    image: "/images/val_award.jpeg",
-    text: "Valedictorian of EECS Department Award",
-  },
+    image: "/images/val_award.png",
+    text: "Valedictorian of EECS Department Award"
+  }
 ];

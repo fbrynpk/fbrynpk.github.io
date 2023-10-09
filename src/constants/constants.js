@@ -147,6 +147,10 @@ export const certif = [
     text: "ChatGPT & Large Language Models (LLMs)"
   },
   {
+    image: "images/Certificates/GenAI.png",
+    text: "GPT-4 Foundations: Building AI Powered Apps"
+  },
+  {
     image: "images/Certificates/MLDS.png",
     text: "Machine Learning & Data Science Specialization"
   }

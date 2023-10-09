@@ -7,6 +7,7 @@ import {
   Div1,
   Div2,
   Div3,
+  MargList,
   NavLink,
   SocialIcons
 } from "./HeaderStyles";
@@ -30,36 +31,36 @@ const Header = () => (
       </Link>
     </Div1>
     <Div2>
-      <li>
+      <MargList>
         <Link activeClass="active" to="projects">
           <NavLink>Projects</NavLink>
         </Link>
-      </li>
-      <li>
+      </MargList>
+      <MargList>
         <Link activeClass="active" to="tech">
           <NavLink>Experiences</NavLink>
         </Link>
-      </li>
-      <li>
+      </MargList>
+      <MargList>
         <Link activeClass="active" to="about">
           <NavLink>About</NavLink>
         </Link>
-      </li>
-      <li>
+      </MargList>
+      <MargList>
         <Link activeClass="active" to="certificates">
           <NavLink>Certificates</NavLink>
         </Link>
-      </li>
-      <li>
+      </MargList>
+      <MargList>
         <Link activeClass="active" to="awards">
           <NavLink>Awards</NavLink>
         </Link>
-      </li>
-      <li>
+      </MargList>
+      <MargList>
         <Link activeClass="active" to="contact">
           <NavLink>Contact</NavLink>
         </Link>
-      </li>
+      </MargList>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/fbrynpk">

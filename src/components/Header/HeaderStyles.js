@@ -22,10 +22,14 @@ export const Container = styled.div`
     grid-template-rows: repeat(2, 50px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
-    padding: 15px;
+    padding: 20px;
   }
   @media ${(props) => props.theme.breakpoints.md} {
+    display: flex;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
     padding: 8px;
+    align-items: flex-start;
   }
 `;
 
@@ -36,6 +40,9 @@ export const Div1 = styled.div`
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
+  }
+  @media ${(props) => props.theme.breakpoints.lg} {
+    margin-top: 13%;
   }
 `;
 export const Div2 = styled.div`
@@ -52,6 +59,14 @@ export const Div2 = styled.div`
   @media ${(props) => props.theme.breakpoints.md} {
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-area: 1 / 1 / 2 / 4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: stretch;
+    padding-left: 10%;
   }
 `;
 export const Div3 = styled.div`
@@ -139,4 +154,8 @@ export const SocialIcons = styled.a`
     transform: scale(1.2);
     cursor: pointer;
   }
+`;
+
+export const MargList = styled.li`
+  margin: 2%;
 `;

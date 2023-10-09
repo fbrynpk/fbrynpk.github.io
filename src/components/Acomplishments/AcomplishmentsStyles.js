@@ -33,20 +33,20 @@ export const Imgs = styled.img`
 export const Box = styled.div`
   background: #212d45;
   border-radius: 12px;
-  height: 385px;
+  height: auto;
   padding: 24px;
   @media ${(props) => props.theme.breakpoints.lg} {
-    height: 350px;
+    height: auto;
     padding: 18px;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    height: 325px;
+    height: auto;
     padding: 16px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    height: 250px;
+    height: auto;
     padding: 14px;
 
     &:nth-child(2n) {

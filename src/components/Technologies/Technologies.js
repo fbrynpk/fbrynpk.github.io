@@ -4,14 +4,14 @@ import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
-  ListTitle,
+  ListTitle
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
@@ -39,7 +39,7 @@ const Technologies = () => (
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Natrual Language Processing</ListTitle>
+          <ListTitle>Natural Language Processing</ListTitle>
           <ListParagraph>
             Experienced with NLP theory such as Tokenizations, Vectorization,
             Bag of Words model, Lemmatization and Stemming, markov models also

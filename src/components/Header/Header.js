@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "react-scroll";
 import React from "react";
 import * as FaIcons from "react-icons/fa";
 
@@ -8,39 +8,40 @@ import {
   Div2,
   Div3,
   NavLink,
-  SocialIcons,
-  Span,
+  SocialIcons
 } from "./HeaderStyles";
 
 const Header = () => (
   <Container>
     <Div1>
       <Link
-        href="/"
+        activeClass="active"
+        to="home"
         style={{
           display: "flex",
           alignItems: "center",
           color: "white",
-          marginBottom: "20px",
-        }}>
-
-        <FaIcons.FaBars size="2rem" /> <Span>Home</Span>
-
+          marginBottom: "20px"
+        }}
+      >
+        <SocialIcons>
+          <FaIcons.FaHome size="2rem" />
+        </SocialIcons>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects" legacyBehavior>
-          <NavLink>Project</NavLink>
+        <Link activeClass="active" to="projects">
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech" legacyBehavior>
+        <Link activeClass="active" to="tech">
           <NavLink>Experiences</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about" legacyBehavior>
+        <Link activeClass="active" to="about">
           <NavLink>About</NavLink>
         </Link>
       </li>

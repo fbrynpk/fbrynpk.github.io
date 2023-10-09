@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  Section,
+  SectionNoPadding,
   SectionText,
   SectionTitle
 } from "../../styles/GlobalComponents";
@@ -10,7 +10,7 @@ import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <div>
-    <Section row nopadding>
+    <SectionNoPadding row nopadding>
       <LeftSection>
         <SectionTitle main center>
           Hello,
@@ -30,7 +30,7 @@ const Hero = (props) => (
           <Button type="submit">Curriculum Vitae</Button>
         </form>
       </LeftSection>
-    </Section>
+    </SectionNoPadding>
   </div>
 );
 

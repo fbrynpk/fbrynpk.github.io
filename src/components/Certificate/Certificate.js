@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Section, SectionTitle } from "../../styles/GlobalComponents";
+import { SectionNoPadding, SectionTitle } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText, Imgs } from "./CertificateStyles";
 import { certif } from "../../constants/constants";
 
 const Certificate = () => (
-  <Section>
+  <SectionNoPadding>
     <SectionTitle>Certifications</SectionTitle>
     <Boxes>
       {certif.map((card, index) => (
@@ -17,7 +17,7 @@ const Certificate = () => (
         </Box>
       ))}
     </Boxes>
-  </Section>
+  </SectionNoPadding>
 );
 
 export default Certificate;

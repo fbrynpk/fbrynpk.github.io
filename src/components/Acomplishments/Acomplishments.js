@@ -1,15 +1,15 @@
 import React from "react";
 
 import {
-  Section,
   SectionDivider,
+  SectionNoPadding,
   SectionTitle
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText, Imgs } from "./AcomplishmentsStyles";
 import { data } from "../../constants/constants";
 
 const Acomplishments = () => (
-  <Section>
+  <SectionNoPadding>
     <SectionDivider />
     <br />
     <SectionTitle>Awards</SectionTitle>
@@ -23,7 +23,7 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
-  </Section>
+  </SectionNoPadding>
 );
 
 export default Acomplishments;

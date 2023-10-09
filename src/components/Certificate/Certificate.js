@@ -1,17 +1,11 @@
 import React from "react";
 
-import {
-  Section,
-  SectionTitle,
-  SectionDivider
-} from "../../styles/GlobalComponents";
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText, Imgs } from "./CertificateStyles";
 import { certif } from "../../constants/constants";
 
 const Certificate = () => (
   <Section>
-    <SectionDivider />
-    <br />
     <SectionTitle>Certifications</SectionTitle>
     <Boxes>
       {certif.map((card, index) => (

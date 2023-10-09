@@ -139,7 +139,7 @@ export const data = [
 
 export const certif = [
   {
-    image: "/images/PyTorch.png",
+    image: "/images/Certificates/PyTorch.png",
     text: "PyTorch for Deep Learning Specialization"
   },
   {
@@ -147,7 +147,7 @@ export const certif = [
     text: "ChatGPT & Large Language Models (LLMs)"
   },
   {
-    image: "image/Certificates/MLDS.png",
+    image: "images/Certificates/MLDS.png",
     text: "Machine Learning & Data Science Specialization"
   }
 ];

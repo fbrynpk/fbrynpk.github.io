@@ -1,16 +1,24 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText, Imgs} from './AcomplishmentsStyles';
-import { data } from '../../constants/constants';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText, Imgs } from "./AcomplishmentsStyles";
+import { data } from "../../constants/constants";
 
 const Acomplishments = () => (
   <Section>
+    <SectionDivider />
+    <br />
     <SectionTitle>Awards</SectionTitle>
     <Boxes>
-      {data.map((card,index)=>(
+      {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum><Imgs src={card.image}/></BoxNum>
+          <BoxNum>
+            <Imgs src={card.image} />
+          </BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}

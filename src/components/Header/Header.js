@@ -45,6 +45,21 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link activeClass="active" to="certificates">
+          <NavLink>Certificates</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link activeClass="active" to="awards">
+          <NavLink>Awards</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link activeClass="active" to="contact">
+          <NavLink>Contact</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/fbrynpk">

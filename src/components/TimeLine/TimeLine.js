@@ -65,6 +65,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br />
       <SectionTitle>About me</SectionTitle>
       <SectionText>
         I am from Indonesia, got my bachelor's degree from Taiwan. Very
@@ -141,7 +143,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

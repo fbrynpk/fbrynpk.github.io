@@ -1,11 +1,17 @@
 import React from "react";
 
-import { SectionNoPadding, SectionTitle } from "../../styles/GlobalComponents";
+import {
+  Section,
+  SectionTitle,
+  SectionDivider
+} from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText, Imgs } from "./CertificateStyles";
 import { certif } from "../../constants/constants";
 
 const Certificate = () => (
-  <SectionNoPadding>
+  <Section id="certificates">
+    <SectionDivider />
+    <br />
     <SectionTitle>Certifications</SectionTitle>
     <Boxes>
       {certif.map((card, index) => (
@@ -17,7 +23,7 @@ const Certificate = () => (
         </Box>
       ))}
     </Boxes>
-  </SectionNoPadding>
+  </Section>
 );
 
 export default Certificate;

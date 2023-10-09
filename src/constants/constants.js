@@ -130,3 +130,10 @@ export const data = [
     text: "Valedictorian of EECS Department Award"
   }
 ];
+
+export const certif = [
+  {
+    image: "/images/PyTorch.pdf",
+    text: "PyTorch for Deep Learning Specialization"
+  }
+];

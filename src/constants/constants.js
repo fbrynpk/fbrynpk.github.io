@@ -133,7 +133,7 @@ export const data = [
 
 export const certif = [
   {
-    image: "/images/PyTorch.pdf",
+    image: "/images/PyTorch.png",
     text: "PyTorch for Deep Learning Specialization"
   }
 ];

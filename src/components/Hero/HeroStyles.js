@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const LeftSection = styled.div`
   width: 100%;
-  padding-top: 110px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     display: flex;
@@ -15,10 +14,9 @@ export const LeftSection = styled.div`
     flex-direction: column;
     padding-top: 0px;
   }
-  @media ${(props) => props.theme.breakpoints.xl} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 0px;
   }
 `;

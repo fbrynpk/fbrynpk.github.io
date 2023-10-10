@@ -14,7 +14,7 @@ export const projects = [
   {
     title: "FoodVision",
     description:
-      "Using transfer learning method creating a custom Vision-Transformer model that could detect a specific food classes, this model is trained using 20% dataset from PyTorch Food101 dataset, and the model is hosted on HuggingFace Spaces",
+      "Used transfer learning method creating a custom Vision-Transformer model that could detect a specific food classes, this model is trained using 20% dataset from PyTorch Food101 dataset, and the model is hosted on HuggingFace Spaces",
     image: "/images/Projects/2.png",
     play: "",
     tags: ["Python", "PyTorch", "HuggingFace"],
@@ -47,7 +47,7 @@ export const projects = [
   {
     title: "Image Caption Generator (Bachelor's Thesis)",
     description:
-      "Creating an image to caption generator with Transfer Learning and Deep Learning from an Inception V3 model combined into a transformer encoder and decoder model",
+      "Created an image to caption generator with Transfer Learning and Deep Learning from an Inception V3 model combined into a transformer encoder and decoder model",
     image: "/images/Projects/5.jpg",
     play: "https://huggingface.co/spaces/fbrynpk/image-caption-generator",
     tags: ["Python", "Deep Learning", "Transfer Learning", "Tensorflow"],

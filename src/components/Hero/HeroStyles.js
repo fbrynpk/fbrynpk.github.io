@@ -7,14 +7,12 @@ export const LeftSection = styled.div`
     width: 80%;
     display: flex;
     flex-direction: column;
-    padding-bottom: 40px;
+    padding-bottom: 140px;
   }
   @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
-
-    margin: 0 auto;
+    padding-top: 95px;
   }
 `;

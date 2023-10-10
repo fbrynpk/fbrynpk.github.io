@@ -67,14 +67,23 @@ const Timeline = () => {
     <Section id="about">
       <SectionDivider />
       <br />
-      <SectionTitle>About me</SectionTitle>
+      <br />
+      <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am from Indonesia, got my bachelor's degree from Taiwan. Very
-        enthusiast about technology and machine learning, always try to keep up
-        for the latest state-of-the-art technologies! Currently learning about
-        machine learning albeit in the realm of NLP and CV, specifically I am
-        interested to contribute to the community by improving healthcare
-        quality through AI implementations.
+        I am from Indonesia, got my bachelor of science degree from National
+        Taipei University of Technology, Taiwan. Very enthusiast about
+        technology and machine learning, always try to keep up for the latest
+        state-of-the-art technologies! Currently learning about machine learning
+        albeit in the realm of NLP and CV, specifically I am interested to
+        contribute to the community by improving healthcare quality through AI
+        implementations.
+      </SectionText>
+      <SectionText>
+        Feel free to explore my portfolio and get a glimpse into the diverse
+        projects I've been fortunate to work on. Each projects is a testament to
+        my commitment to understand, implement and contribute my passion for
+        machine learning. If you're curious about collaborations or have a
+        project in mind, I'd love to hear from you
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

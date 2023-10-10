@@ -32,6 +32,11 @@ const Header = () => (
     </Div1>
     <Div2>
       <MargList>
+        <Link activeClass="active" to="about">
+          <NavLink>About</NavLink>
+        </Link>
+      </MargList>
+      <MargList>
         <Link activeClass="active" to="projects">
           <NavLink>Projects</NavLink>
         </Link>
@@ -39,11 +44,6 @@ const Header = () => (
       <MargList>
         <Link activeClass="active" to="tech">
           <NavLink>Experiences</NavLink>
-        </Link>
-      </MargList>
-      <MargList>
-        <Link activeClass="active" to="about">
-          <NavLink>About</NavLink>
         </Link>
       </MargList>
       <MargList>

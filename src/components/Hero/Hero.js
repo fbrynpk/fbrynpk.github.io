@@ -13,14 +13,15 @@ const Hero = (props) => (
     <SectionNoPadding row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hello,
+          Welcome,
           <br />
-          My name is
+          to my digital
           <br />
-          Febryan Putra Kartika
+          creative space
         </SectionTitle>
         <SectionText>
-          Welcome to my site! Where you can learn more about me!
+          I'm Febryan Putra Kartika, Here, you'll find a curated collection of
+          my projects, reflecting my dedication to machine learning.
         </SectionText>
         <form method="get" action="cv.pdf">
           <Button type="submit">Curriculum Vitae</Button>

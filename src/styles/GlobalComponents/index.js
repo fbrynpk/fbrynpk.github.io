@@ -45,6 +45,7 @@ export const SectionNoPadding = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  padding-bottom: 5%;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -100,6 +101,7 @@ export const SectionText = styled.p`
   font-size: 20px;
   line-height: 35px;
   font-weight: 300;
+  padding-top: 3.2rem;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
 

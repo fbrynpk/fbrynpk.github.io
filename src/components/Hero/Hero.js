@@ -20,11 +20,7 @@ const Hero = (props) => (
           Febryan Putra Kartika
         </SectionTitle>
         <SectionText>
-          Fresh Graduate Student majored in Electrical Engineering and Computer
-          Science at National Taipei University of Technology passionate about
-          learning Machine Learning particulary on Natural Language Processing
-          and Computer Vision and how it can be applied to solve real life
-          problems specifically for healthcare.
+          Welcome to my site! Where you can learn more about me!
         </SectionText>
         <form method="get" action="cv.pdf">
           <Button type="submit">Curriculum Vitae</Button>

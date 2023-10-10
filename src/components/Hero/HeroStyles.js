@@ -7,9 +7,7 @@ export const LeftSection = styled.div`
     width: 80%;
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
-
-    margin: 0 auto;
+    padding-bottom: 40px;
   }
   @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;

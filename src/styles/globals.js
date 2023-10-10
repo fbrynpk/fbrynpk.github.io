@@ -13,6 +13,9 @@ const GlobalStyles = createGlobalStyle`
     font-size: 62.5%;
     scroll-behavior: smooth;
 
+    @media ${(props) => props.theme.breakpoints.sm} {
+      font-size: 42%;
+    }
   }
   body {
     font-family: ${(props) => props.theme.fonts.main};

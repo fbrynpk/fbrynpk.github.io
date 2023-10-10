@@ -22,14 +22,10 @@ export const Container = styled.div`
     grid-template-rows: repeat(2, 50px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
-    padding: 20px;
+    padding: 15px;
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    display: flex;
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
     padding: 8px;
-    align-items: flex-start;
   }
 `;
 
@@ -49,24 +45,16 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 1 / 2 / 6;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  @media ${(props) => props.theme.breakpoints.lg} {
-    grid-area: 1 / 1 / 2 / 4;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    justify-items: stretch;
-    padding-left: 10%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: 55%;
   }
 `;
 export const Div3 = styled.div`

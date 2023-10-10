@@ -105,6 +105,15 @@ export const SectionText = styled.p`
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    max-width: 1050px;
+    margin-bottom: -3%;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
     font-size: 20px;

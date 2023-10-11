@@ -26,7 +26,7 @@ const Header = () => (
         }}
       >
         <SocialIcons>
-          <FaIcons.FaHome size="2rem" />
+          <FaIcons.FaHome size="4rem" />
         </SocialIcons>
       </Link>
     </Div1>

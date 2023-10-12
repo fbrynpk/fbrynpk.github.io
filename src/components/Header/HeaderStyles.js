@@ -12,7 +12,7 @@ export const Container = styled.div`
   top: 0px;
   width: 100%;
   z-index: 1;
-  background-color: #0f1624;
+  background-color: ${(props) => props.theme.colors.background1};
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -136,7 +136,7 @@ export const SocialIcons = styled.a`
   border-radius: 50px;
   padding: 8px;
   &:hover {
-    background-color: #212d45;
+    background-color: grey;
     transform: scale(1.2);
     cursor: pointer;
   }

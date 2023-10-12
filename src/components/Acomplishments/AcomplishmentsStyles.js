@@ -31,7 +31,7 @@ export const Imgs = styled.img`
 `;
 
 export const Box = styled.div`
-  background: #212d45;
+  background: #2e2e2c;
   border-radius: 12px;
   height: auto;
   padding: 24px;

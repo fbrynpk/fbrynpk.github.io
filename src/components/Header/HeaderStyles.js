@@ -12,7 +12,10 @@ export const Container = styled.div`
   top: 0px;
   width: 100%;
   z-index: 1;
-  background-color: #0f1624;
+  background-color: ${(props) => props.theme.colors.background1};
+
+  &.light {
+    background-color: ${(props) => props.theme.colors.light.background};
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -77,6 +80,9 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
+  &.light {
+    color: black;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }
@@ -137,6 +143,13 @@ export const SocialIcons = styled.a`
   padding: 8px;
   &:hover {
     background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  &.light {
+    color: black;
+    &:hover {
+    background-color: #918c8c;
     transform: scale(1.2);
     cursor: pointer;
   }

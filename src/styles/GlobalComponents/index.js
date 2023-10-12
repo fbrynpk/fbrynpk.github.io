@@ -87,7 +87,6 @@ export const SectionTitle = styled.h2`
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: ${(props) => (props.main ? "28px" : "32px")};
     line-height: ${(props) => (props.main ? "54px" : "85px")};
-    margin-bottom: -25px;
     padding: ${(props) => (props.main ? "16px 0 8px" : "0")};
     max-width: 100%;
     font-size: 50px;
@@ -124,6 +123,7 @@ export const SectionText = styled.p`
     line-height: 27px;
     padding-bottom: 16px;
     margin-bottom: 25px;
+    margin-top: -9%;
   }
 `;
 

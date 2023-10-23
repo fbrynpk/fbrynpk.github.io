@@ -153,5 +153,9 @@ export const certif = [
   {
     image: "images/Certificates/MLDS.png",
     text: "Machine Learning & Data Science Specialization"
+  },
+  {
+    image: "images/Certificates/HealthDataScience.png",
+    text: "Health Data Science Specialization"
   }
 ];

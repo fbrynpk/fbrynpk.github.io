@@ -4,7 +4,7 @@ export const projects = [
     description:
       "An experiment intended to create a model that could recognize what symptoms we had, using a speech recognition model to convert speech to text",
     image: "/images/Projects/0.png",
-    play: "",
+    play: "https://github.com/fbrynpk/HealthIntentClassification",
     tags: ["Python", "PyTorch", "NLTK"],
     source:
       "https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent",
@@ -16,10 +16,10 @@ export const projects = [
     description:
       "Used transfer learning method creating a custom Vision-Transformer model that could detect a specific food classes, this model is trained using 20% dataset from PyTorch Food101 dataset, and the model is hosted on HuggingFace Spaces",
     image: "/images/Projects/2.png",
-    play: "",
+    play: "https://huggingface.co/spaces/fbrynpk/FoodVision",
     tags: ["Python", "PyTorch", "HuggingFace"],
     source: "",
-    visit: "https://huggingface.co/spaces/fbrynpk/FoodVision",
+    visit: "https://huggingface.co/spaces/fbrynpk/FoodVision/tree/main",
     id: 1
   },
   {
@@ -27,7 +27,7 @@ export const projects = [
     description:
       "An attempt to manually create a Vision-Transformer model from scratch, this model is based on the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, in this attempt I recreated the ViT-B/16 model.",
     image: "/images/Projects/6.png",
-    play: "",
+    play: "https://github.com/fbrynpk/Vision-Transformer",
     tags: ["Python", "PyTorch"],
     source: "https://arxiv.org/pdf/2010.11929.pdf",
     visit: "https://github.com/fbrynpk/Vision-Transformer",
@@ -38,7 +38,7 @@ export const projects = [
     description:
       "The purpose of this project is to compare models between TinyVGG and EfficientNetB0 on which model is better to detect COVID-19 from X-Ray images",
     image: "/images/Projects/7.png",
-    play: "",
+    play: "https://huggingface.co/spaces/fbrynpk/Covid-19-Detection",
     tags: ["Python", "PyTorch", "Transfer Learning"],
     source: "https://poloclub.github.io/cnn-explainer/",
     visit: "https://github.com/fbrynpk/Covid19-Prediction",
@@ -62,7 +62,7 @@ export const projects = [
     description:
       "First project that is related to data science and machine learning, creating a CNN and training it to be able to accurately detect emotions including Happy, Sad, Angry, Scared, and Shocked",
     image: "/images/Projects/1.jpg",
-    play: "",
+    play: "https://github.com/fbrynpk/RealTimeEmotionRecognition",
     tags: ["Python", "Tensorflow"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/RealTimeEmotionRecognition",
@@ -73,7 +73,7 @@ export const projects = [
     description:
       "An experiment to create a functional rating system based on movies, the reason for this project is for movie lovers who at times have troubles to watch good movies, and this system will create a trust-worthy rating system that every movie lovers can rate and view regarding what movies they might find themselves suitable with",
     image: "/images/Projects/3.png",
-    play: "",
+    play: "https://github.com/fbrynpk/web-programming-final",
     tags: ["HTML", "CSS", "JavaScript", "Git", "Firebase"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/web-programming-final",

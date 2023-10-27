@@ -52,7 +52,7 @@ export const projects = [
     play: "https://huggingface.co/spaces/fbrynpk/image-caption-generator",
     tags: ["Python", "Deep Learning", "Transfer Learning", "Tensorflow"],
     source:
-      "https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/",
+      "https://keras.io/examples/vision/image_captioning/#image-captioning",
     visit:
       "https://huggingface.co/spaces/fbrynpk/image-caption-generator/tree/main",
     id: 4

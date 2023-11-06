@@ -157,5 +157,9 @@ export const certif = [
   {
     image: "images/Certificates/HealthDataScience.png",
     text: "Health Data Science Specialization"
+  },
+  {
+    image: "images/Certificates/NLPAttention.png",
+    text: "Natural Language Processing with Attention Models"
   }
 ];

@@ -9,7 +9,18 @@ export const projects = [
     source:
       "https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent",
     visit: "https://github.com/fbrynpk/HealthIntentClassification",
-    id: 0
+    id: 0,
+  },
+  {
+    title: "ViT: Vision Transformer for Early Dementia Detection",
+    description:
+      "An attempt to manually create a Vision-Transformer model from scratch, this model is based on the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, in this attempt I recreated the ViT-B/16 model.",
+    image: "/images/Projects/6.png",
+    play: "https://github.com/fbrynpk/ViT-Dementia",
+    tags: ["Python", "PyTorch"],
+    source: "https://arxiv.org/pdf/2010.11929.pdf",
+    visit: "https://github.com/fbrynpk/ViT-Dementia",
+    id: 1,
   },
   {
     title: "FoodVision",
@@ -20,18 +31,7 @@ export const projects = [
     tags: ["Python", "PyTorch", "HuggingFace"],
     source: "",
     visit: "https://huggingface.co/spaces/fbrynpk/FoodVision/tree/main",
-    id: 1
-  },
-  {
-    title: "Vision-Transformer",
-    description:
-      "An attempt to manually create a Vision-Transformer model from scratch, this model is based on the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, in this attempt I recreated the ViT-B/16 model.",
-    image: "/images/Projects/6.png",
-    play: "https://github.com/fbrynpk/Vision-Transformer",
-    tags: ["Python", "PyTorch"],
-    source: "https://arxiv.org/pdf/2010.11929.pdf",
-    visit: "https://github.com/fbrynpk/Vision-Transformer",
-    id: 2
+    id: 2,
   },
   {
     title: "COVID-19 Detection",
@@ -42,7 +42,7 @@ export const projects = [
     tags: ["Python", "PyTorch", "Transfer Learning"],
     source: "https://poloclub.github.io/cnn-explainer/",
     visit: "https://github.com/fbrynpk/Covid19-Prediction",
-    id: 3
+    id: 3,
   },
   {
     title: "Image Caption Generator (Bachelor's Thesis)",
@@ -53,9 +53,8 @@ export const projects = [
     tags: ["Python", "Deep Learning", "Transfer Learning", "Tensorflow"],
     source:
       "https://keras.io/examples/vision/image_captioning/#image-captioning",
-    visit:
-      "https://huggingface.co/spaces/fbrynpk/image-caption-generator/tree/main",
-    id: 4
+    visit: "https://github.com/fbrynpk/Image-Caption-Generator",
+    id: 4,
   },
   {
     title: "Emotion Recognition",
@@ -66,7 +65,7 @@ export const projects = [
     tags: ["Python", "Tensorflow"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/RealTimeEmotionRecognition",
-    id: 5
+    id: 5,
   },
   {
     title: '"Crinema" Online Movie Rating System',
@@ -77,7 +76,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Git", "Firebase"],
     source: "https://google.com",
     visit: "https://github.com/fbrynpk/web-programming-final",
-    id: 7
+    id: 7,
   },
   {
     title: "Minesweeper",
@@ -89,77 +88,77 @@ export const projects = [
     source:
       "https://www.youtube.com/watch?v=hg41egLtM9o&t=5s&ab_channel=JustinKim",
     visit: "https://github.com/fbrynpk/minesweeper-ts",
-    id: 6
-  }
+    id: 6,
+  },
 ];
 
 export const TimeLineData = [
   {
     year: 2018,
-    text: "Started learning python, data structures and algorithm"
+    text: "Started learning python, data structures and algorithm",
   },
   {
     year: 2019,
-    text: "Got introduced into machine learning and it's applications"
+    text: "Got introduced into machine learning and it's applications",
   },
   {
     year: 2020,
-    text: "Created first ever CNN model for facial emotion recognition"
+    text: "Created first ever CNN model for facial emotion recognition",
   },
   {
     year: 2021,
-    text: "Dived deeper to understand more about neural networks, deep learning and theories behind state-of-the-art models"
+    text: "Dived deeper to understand more about neural networks, deep learning and theories behind state-of-the-art models",
   },
   {
     year: 2022,
-    text: "Experimented with Transformer models to generate captions based on a given image (Bachelor's thesis)"
+    text: "Experimented with Transformer models to generate captions based on a given image (Bachelor's thesis)",
   },
   {
     year: 2023,
-    text: "Conducted some experiments with speech recognition and NLP to help with early detection for medical disorders"
-  }
+    text: "Conducted some experiments with speech recognition and NLP to help with early detection for medical disorders",
+  },
 ];
 
 export const data = [
   { image: "/images/Awards/award2.png", text: "Dean's List Award - Fall 2019" },
   {
     image: "/images/Awards/award.jpg",
-    text: "Dean's List Award - Spring 2020"
+    text: "Dean's List Award - Spring 2020",
   },
   { image: "/images/Awards/award4.png", text: "Dean's List Award - Fall 2020" },
   {
     image: "/images/Awards/award3.png",
-    text: "Dean's List Award - Spring 2021"
+    text: "Dean's List Award - Spring 2021",
   },
   {
     image: "/images/Awards/val_award.png",
-    text: "Valedictorian of EECS Department Award"
-  }
+    text: "Valedictorian of EECS Department Award",
+  },
 ];
 
 export const certif = [
   {
     image: "/images/Certificates/PyTorch.png",
-    text: "PyTorch for Deep Learning Specialization"
+    text: "PyTorch for Deep Learning Specialization",
   },
   {
     image: "images/Certificates/LLM.png",
-    text: "ChatGPT & Large Language Models (LLMs)"
+    text: "ChatGPT & Large Language Models (LLMs)",
   },
   {
     image: "images/Certificates/GenAI.png",
-    text: "GPT-4 Foundations: Building AI Powered Apps"
+    text: "GPT-4 Foundations: Building AI Powered Apps",
   },
   {
     image: "images/Certificates/MLDS.png",
-    text: "Machine Learning & Data Science Specialization"
+    text: "Machine Learning & Data Science Specialization",
   },
   {
     image: "images/Certificates/HealthDataScience.png",
-    text: "Health Data Science Specialization"
+    text: "Health Data Science Specialization",
   },
   {
     image: "images/Certificates/NLPAttention.png",
-    text: "Natural Language Processing with Attention Models"
-  }
+    text: "Natural Language Processing with Attention Models",
+  },
 ];

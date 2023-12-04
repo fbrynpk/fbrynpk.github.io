@@ -155,7 +155,7 @@ export const certif = [
   },
   {
     image: "images/Certificates/HealthDataScience.png",
-    text: "Health Data Science Specialization",
+    text: "Health Data Science Foundation",
   },
   {
     image: "images/Certificates/NLPAttention.png",

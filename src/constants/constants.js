@@ -12,6 +12,17 @@ export const projects = [
     id: 0
   },
   {
+    title: "ViT: Vision Transformer for Early Dementia Detection",
+    description:
+      "An attempt to manually create a Vision-Transformer model from scratch, this model is based on the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, in this attempt I recreated the ViT-B/16 model.",
+    image: "/images/Projects/6.png",
+    play: "https://github.com/fbrynpk/ViT-Dementia",
+    tags: ["Python", "PyTorch"],
+    source: "https://arxiv.org/pdf/2010.11929.pdf",
+    visit: "https://github.com/fbrynpk/ViT-Dementia",
+    id: 1
+  },
+  {
     title: "FoodVision",
     description:
       "Used transfer learning method creating a custom Vision-Transformer model that could detect a specific food classes, this model is trained using 20% dataset from PyTorch Food101 dataset, and the model is hosted on HuggingFace Spaces",
@@ -20,17 +31,6 @@ export const projects = [
     tags: ["Python", "PyTorch", "HuggingFace"],
     source: "",
     visit: "https://huggingface.co/spaces/fbrynpk/FoodVision/tree/main",
-    id: 1
-  },
-  {
-    title: "Vision-Transformer",
-    description:
-      "An attempt to manually create a Vision-Transformer model from scratch, this model is based on the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, in this attempt I recreated the ViT-B/16 model.",
-    image: "/images/Projects/6.png",
-    play: "https://github.com/fbrynpk/Vision-Transformer",
-    tags: ["Python", "PyTorch"],
-    source: "https://arxiv.org/pdf/2010.11929.pdf",
-    visit: "https://github.com/fbrynpk/Vision-Transformer",
     id: 2
   },
   {
@@ -53,8 +53,7 @@ export const projects = [
     tags: ["Python", "Deep Learning", "Transfer Learning", "Tensorflow"],
     source:
       "https://keras.io/examples/vision/image_captioning/#image-captioning",
-    visit:
-      "https://huggingface.co/spaces/fbrynpk/image-caption-generator/tree/main",
+    visit: "https://github.com/fbrynpk/Image-Caption-Generator",
     id: 4
   },
   {
@@ -156,7 +155,7 @@ export const certif = [
   },
   {
     image: "images/Certificates/HealthDataScience.png",
-    text: "Health Data Science Specialization"
+    text: "Health Data Science Foundation"
   },
   {
     image: "images/Certificates/NLPAttention.png",

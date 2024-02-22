@@ -34,7 +34,7 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   margin: 3rem 0;
 
@@ -66,7 +66,7 @@ export const ListContainer = styled.div`
 
 export const ListTitle = styled.h4`
   font-weight: 700;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -86,8 +86,9 @@ export const ListTitle = styled.h4`
 `;
 
 export const ListParagraph = styled.p`
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
+  text-align: justify;
   color: rgba(255, 255, 255, 0.75);
 
   @media ${(props) => props.theme.breakpoints.md} {

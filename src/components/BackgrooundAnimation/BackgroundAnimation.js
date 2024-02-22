@@ -4,7 +4,7 @@ import { BgAnimation_svg } from "./BackgroundAnimationStyle";
 const BackgroundAnimation = () => (
   <div>
     <BgAnimation_svg
-      viewBox="0 0 602 602"
+      viewBox="0 1 602 602"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

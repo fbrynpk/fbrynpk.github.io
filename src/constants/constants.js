@@ -161,5 +161,9 @@ export const certif = [
   {
     image: "images/Certificates/NLPAttention.png",
     text: "Natural Language Processing with Attention Models"
+  },
+  {
+    image: "images/Certificates/DeepLearningHealthcare.png",
+    text: "Deep Learning Methods for Healthcare"
   }
 ];
